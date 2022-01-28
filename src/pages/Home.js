@@ -16,7 +16,7 @@ export default function Home(props){
                 <div className="">
                 <div className="mb-20 transparent-grey-bg p-5 tb-shadow">
                 <h1 className="subtitle text-white text-center container ">
-                    “We firmly believe that this digital asset market will be as big as or even bigger than the physical asset market in the long run”
+                The bridge between the virtual & physical world.
                     </h1>
                 </div>
                 </div>
