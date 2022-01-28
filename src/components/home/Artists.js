@@ -4,7 +4,7 @@ import {Row, Col} from 'antd'
 export default function Artists(props){
     return(
         <>
-        <div className="container p-10">
+        <div className="container">
             <h1 className="subtitle">
                 How do we connect artists with users?
             </h1>

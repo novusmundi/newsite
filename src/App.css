@@ -2,6 +2,10 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  float: none;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
 
 .poppins {
@@ -53,7 +57,7 @@ body{
   -moz-background-size:cover!important;
   -o-background-size:cover!important;
   background-size:cover!important;
-  background-position:center;
+  background-position:center!important;
 }
 
 .transparent-grey-bg{
