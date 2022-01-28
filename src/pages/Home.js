@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react'
+import React from 'react'
 import Layout from '../components/general/Layout'
 import NftBanner from '../components/home/NftBanner'
 import Foundation from '../components/home/Foundation'

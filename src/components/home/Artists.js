@@ -104,7 +104,7 @@ export default function Artists(props){
                             to make this world more entertaining for anyone.
                             </p>
                             <div className="text-end mt-5">
-                            <a href="">
+                            <a href="/">
                                 <button className="btn collectionButton">
                                     Link to collection
                                 </button>
@@ -130,7 +130,7 @@ export default function Artists(props){
                             to make this world more entertaining for anyone.
                             </p>
                             <div className="text-start mt-5">
-                            <a href="">
+                            <a href="/">
                                 <button className="btn collectionButton">
                                     Link to collection
                                 </button>
