@@ -34,6 +34,7 @@ export default function Foundation(props){
                         <img src="/assets/ar.png" alt="" className="img-fluid"/>
                     </Col>
                 </Row>
+                <div className="my-md-5"></div>
                 <Row align="middle">
                 <Col md={24} lg={12}>
                         <img src="/assets/location.png" alt="" className="img-fluid"/>

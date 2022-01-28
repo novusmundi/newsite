@@ -4,8 +4,10 @@ import {Row, Col} from 'antd'
 export default function Artists(props){
     return(
         <>
-        <div className="container">
-            <h1 className="subtitle">
+        <div className="container p-5">
+            <Row justify="center">
+                <Col md={24} lg={16}>
+                <h1 className="subtitle">
                 How do we connect artists with users?
             </h1>
             <p className="bold text-lg mt-3">
@@ -19,6 +21,8 @@ export default function Artists(props){
                     We believe that the key to make this happen is creating a great user interactive experience by adding community features to connect those people through the app. We know how painful the blockchain user experience is as of right now, this is why we want to bring you an APP that is easy to use and intuitive
                 </p>
             </div>
+                </Col>
+            </Row>
         </div>
         <div className=" shadow-lg black-bg  w-100">
         <Row justify="center" align="middle">
@@ -79,7 +83,7 @@ export default function Artists(props){
                 </Row>                      
             </div>
             <div className="">
-                <div className="my-5 transparent-grey-bg p-5 customShadow">
+                <div className="my-5 transparent-grey-bg p-5 tb-shadow">
                 <h1 className="subtitle text-white text-center container ">
                     “We firmly believe that this digital asset market will be as big as or even bigger than the physical asset market in the long run”
                     </h1>
