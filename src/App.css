@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+.text-sm{
+  font-size: 15px;
+}
+.text-md{
+  font-size: 20px;
+}
+.text-lg{
+  font-size: 30px;
+}
+.title{
+  font-size: 60px!important;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+.subtitle{
+  font-size: 45px!important;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+.text-thin{
+  font-weight: 300;
+}
+.text-justify {
+  text-align: justify;
+}
+.bold{
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  max-width: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
+
+.fullScreen{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+.responsiveBackground{
+  background-repeat:no-repeat!important;
+  -webkit-background-size:cover!important;
+  -moz-background-size:cover!important;
+  -o-background-size:cover!important;
+  background-size:cover!important;
+  background-position:center;
 }
 
-.App-link {
-  color: #61dafb;
+.transparent-grey-bg{
+  background-color: #a39797a8;
+}
+.mt-10{
+  margin-top: 10rem;
+}
+.mb-10{
+  margin-bottom: 10rem;
+}
+.my-10{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.mb-20{
+  margin-bottom: 20rem;
+}
+.p-10{
+  padding: 10rem;
+}
+.py-10{
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.pb-10{
+  padding-bottom: 10rem;
+}
+.pb-15{
+  padding-bottom: 15rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.black-bg{
+  background-color: rgb(61, 61, 61);
+}
+.customShadow{
+box-shadow: 5px 8px 5px grey;
+}
+.tb-shadow{
+  box-shadow: 0px 10px 40px #888, 0px -10px 40px #888;
+
+}
+.collectionButton{
+  background-color: #ffffff77;
+  color: #ffffff!important;
+  font-weight: bold;
+}
+.img-md{
+  max-width: 100px;
+  height: auto;
+}
+.height-80{
+  min-height: 80vh!important;
+  max-height: 100%;
+  width: 100%;
+  max-width: 100%;
 }
