@@ -25,7 +25,7 @@ export default function Home2(props){
                 </video>
             </div>
             <div className="mt-10 container">
-                <Row justify="space-between" gutter={[16,16]}>
+                <Row justify="space-between" gutter={[16,32]}>
                     <Col className="text-center" md={24} lg={8}>
                         <h1 className="bold ">
                             Consulting
