@@ -64,30 +64,16 @@ export default function Home2(props){
                     </Col>                                        
                 </Row>
             </div>
-            {/* <div className="mt-10 container">
-                <Row justify="space-between" align="middle">
-                    <Col lg={14} md={24}>
-                        <h1 className="bold">The nomuverse</h1>
-                        <p className="mt-3">
-                        The world is changing, we firmly believe that web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive way in many industries and with the passage of time will eventually become the tapestry on which a new world is woven, as happened with the internet as we know it. Today we are far from this utopia but there are many benefits it can offer compared to current solutions and from NOMU we want to help you to start benefiting from them.
-                        </p>
-                    </Col>
-                    <Col>
-                        <img src="/assets/whale.jpeg" alt="" className="img-fluid" style={{maxHeight:"700px"}}/>
-                    </Col>
-                </Row>
-
-            </div> */}
             <div className="responsiveBackground mt-10" style={{background:"url('/assets/prism.jpg')"}}>
             <div className="container p-10">
             <Row justify="start" align="middle" className="mt-5">                  
                     <Col lg={12} md={24} sm={24} xs={24} className="text-start text-white">
-                        <h1 className="bold text-white">The Nomuverse</h1>
+                        <h1 className="bold text-white">The novus mundi</h1>
                         <p className="mt-3">
                         The world is changing, we firmly believe that web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive way in many industries and with the passage of time will eventually become the tapestry on which a new world is woven, as happened with the internet as we know it. Today we are far from this utopia but there are many benefits it can offer compared to current solutions and from NOMU we want to help you to start benefiting from them.                        </p>
                     </Col>
                 </Row>                   
-                <Row justify="end" align="middle">                  
+                <Row justify="end" align="middle" className="mt-5">                  
                     <Col lg={12} md={24} sm={24} xs={24} className="text-end text-white">
                         <h1 className="bold text-white">The Nomu Labs</h1>
                         <p className="mt-3">
