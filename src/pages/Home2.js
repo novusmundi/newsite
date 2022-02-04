@@ -102,7 +102,7 @@ export default function Home2(props){
             </div>
             <div className="bg-black">
                 <div className="container-fluid px-5 py-3">
-                    <Row align="bottom" justify="space-between">
+                    <Row align="bottom" justify="space-between" gutter={[16,16]}>
                         <Col className="">
                             <Row align="bottom" gutter={[16,16]}>
                                 <Col>
