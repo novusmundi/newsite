@@ -6,9 +6,14 @@ export default function Home2(props){
         <div className="">
             <div id="header" className="mt-5">
                 <Row justify="center">
-                    <Col md={20} lg={10}>
+                    <Col md={20} sm={20} xs={20} lg={10}>
                     <div className="mx-auto text-center">
-                        <img src="/logo.png" alt="" className="img-fluid "/>
+                    <div className="d-none d-lg-block">
+                        <img src="/logo.png" alt="" className="img-fluid"/>
+                    </div>
+                    <div className="d-lg-none">
+                        <img src="/logo.png" alt="" className="img-fluid img-md"/>
+                    </div>
                         <h1 className="display-1 mt-3 bold text-black">
                             Nomu Labs
                         </h1>
@@ -20,9 +25,16 @@ export default function Home2(props){
                 </Row>
             </div>
             <div className="mt-5">
+                <div className="d-none d-lg-block">
                 <video className="img-fluid w-100" loop autoPlay muted>
                     <source src="/assets/horizontal.mp4"/>
                 </video>
+                </div>
+                <div className="d-lg-none">
+                <video className="img-fluid w-100 vertical-video my-5" loop autoPlay muted>
+                    <source src="/assets/sabana.mp4"/>
+                </video>
+                </div>
             </div>
             <div className="mt-10 container">
                 <Row justify="space-between" gutter={[16,32]}>
