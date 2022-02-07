@@ -5,14 +5,14 @@ import './App.css';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-import Home2 from './pages/Home2'
+import Home3 from './pages/Home3'
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<Home2/>}/>
+          <Route path="/" element={<Home3/>}/>
       </Routes>
     </BrowserRouter>
   );

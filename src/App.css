@@ -94,6 +94,11 @@ body{
 .black-bg{
   background-color: rgb(61, 61, 61);
 }
+.video-bg{
+  position: relative;
+  z-index: -1;
+  width: 100vw;
+}
 .customShadow{
 box-shadow: 5px 8px 5px grey;
 }
@@ -124,12 +129,7 @@ box-shadow: 5px 8px 5px grey;
   width: 100%;
   max-width: 100%;
 }
-.vertical-video {
-  position: relative;
-  transform: rotate(90deg);
-  transform-origin: center center;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.video {
+  object-fit: cover!important;
   visibility: visible;
 }
