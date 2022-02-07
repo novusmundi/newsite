@@ -95,9 +95,9 @@ export default function Home3(props){
                 </Row>
             </div>
             <div className="mt-10 responsiveBackground" style={{background:"url('/assets/nomush.jpg')"}}>
-                <div className="container text-white py-10">
+                <div className="container text-white  p-10">
                 <Row >
-                        <Col md={24} lg={16}>
+                        <Col md={24} lg={20}>
                         <h1 className="display-5 bold text-white">
                             Nomu Labs Consulting
                         </h1>
