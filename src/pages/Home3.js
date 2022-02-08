@@ -34,9 +34,7 @@ export default function Home3(props){
                     <div className="d-lg-none">
                         <img src="/logo.png" alt="" className="img-fluid img-md"/>
                     </div> */}
-                        <h1 className="display-1 bold text-black">
-                            Nomu Labs
-                        </h1>
+                        <img src="/assets/nomulabs.jpg" alt="" className="img-fluid"/>
                         <p className="text-center semi-bold mt-5">
                         Our mission is to educate, share and provide services to help people reap the benefits that NFTs can offer. Through preparation, expertise and professionalism we aim to go hand in hand with those that want to be a part of the future.
                         </p>
@@ -89,7 +87,11 @@ export default function Home3(props){
             </div>
             <div className="responsiveBackground " >
             <div className=" p-10">
-            <Row justify="end" align="middle" className="mt-5">                  
+            <Row justify="end" align="middle" className="mt-5">   
+                    <Col lg={10} md={24}>
+                        <img src="/assets/moon.jpg" alt="" className="img-fluid"/>
+
+                    </Col>               
                     <Col lg={12} md={24} sm={24} xs={24} className="text-start">
                         <h1 className="display-5 semi-bold">Novus Mundi</h1>
                         <p className=" mt-5">
@@ -139,7 +141,7 @@ export default function Home3(props){
                     </Row>
                 </div>
                 </div>     
-                <div className="p-10 gradient1">
+                <div className="p-10 responsiveBackground" style={{background:"url('/assets/gradient.jpg')"}}>
                     <Row justify="end">
                         <Col lg={10} md={24}>
                         <h1 className="text-white">Educational Workshops</h1>
@@ -182,7 +184,7 @@ export default function Home3(props){
                 </div>     
                 <div className="mt-10">
                     <h1 className="bold display-1 text-center">NFT Collections</h1>
-                    <div className="mt-10  p-10 responsiveBackground fullScreen d-flex align-items-center"  style={{background:"url('/assets/nomush.jpg')"}} >
+                    <div className="mt-10  p-10 responsiveBackground fullScreen d-flex align-items-center"  style={{background:"url('/assets/nomush2.png')"}} >
                         <div className="">
                         <Row justify="end">
                             <Col lg={8} md={24}>
