@@ -180,7 +180,7 @@ export default function Home3(props){
                                 <h5 className="mt-2">BD & co-Founder</h5>
                             </Col>
                         </Row>
-                        <Row justify="center" align="middle" className="mt-5">
+                        <Row justify="center" align="middle" className="mt-5" gutter={[16,16]}>
                         <Col lg={8} md={24} className="text-center">
                                 <img src="/assets/team/luis.png" alt="" className="img-fluid teamPhoto"/>
                                 <h4 className="mt-3">Luis Pozo</h4>
@@ -253,7 +253,7 @@ export default function Home3(props){
                                     </a>
                                 </Col>
                                 <Col>
-                                <a target="_blank" rel="noreferrer"  href="https://discord.com/invite/zKHF2n4xmh">
+                                <a target="_blank" rel="noreferrer"  className="text-white" href="https://discord.com/invite/zKHF2n4xmh">
                                     <FaDiscord></FaDiscord>
                                 </a>
                                 </Col>
