@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row,Col} from 'antd'
 import { FaDiscord,FaTwitter,FaInstagram,FaLinkedin } from 'react-icons/fa';
+import Layout from  '../components/general/Layout.js'
 
 
 var EmbedVideo = function(props) {
@@ -23,8 +24,8 @@ export default function Home3(props){
 
 
     return(
-        <div className="">
-            <div id="header" className="">
+        <Layout>
+            <div id="home" className="">
                 <Row justify="center">
                     <Col md={20} sm={20} xs={20} lg={10}>
                     <div className="mx-auto mt-5 text-center">
@@ -57,8 +58,28 @@ export default function Home3(props){
                 </video> */}
                 </div>
             </div>
+
+            <div className=" p-10" id="about">
+            <Row justify="end" align="middle" className="mt-5">   
+                    <Col lg={10} md={24}>
+                        <img src="/assets/moon.jpg" alt="" className="img-fluid"/>
+
+                    </Col>               
+                    <Col lg={12} md={24} sm={24} xs={24} className="text-start">
+                        <h1 className="display-5 semi-bold">Novus Mundi</h1>
+                        <p className=" mt-5">
+                        The world is changing, we firmly believe that web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive way in many industries and with the passage of time will eventually become the tapestry on which a new world is woven, as happened with the internet as we know it. Today we are far from this utopia but there are many benefits it can offer compared to current solutions and from NOMU we want to help you to start benefiting from them.                     
+
+                        </p>                        
+                        <p className="text-start">
+                        Nomu is a group of dreamers, specialized in blockchain technology, web 3.0 and NFTs that will guide and advise you in the process of creating and implementing your project.
+                        </p>
+                        <button className="mt-5 btn btn-outline-light">Learn more</button>
+                    </Col>
+                </Row>                                
+            </div>  
             <div className="mt-10 container">
-                <Row justify="space-between" gutter={[16,32]}>
+                <Row justify="space-between" gutter={[16,32]} id="services">
                     <Col className="text-center" md={24} lg={8}>
                         <h1 className="semi-bold ">
                             Consulting
@@ -84,28 +105,7 @@ export default function Home3(props){
                         Our mission is to bring mass adoption to Web 3.0. We want to help you understand the risks and benefits that come with this new technology. </p>
                     </Col>                                        
                 </Row>
-            </div>
-            <div className="responsiveBackground " >
-            <div className=" p-10">
-            <Row justify="end" align="middle" className="mt-5">   
-                    <Col lg={10} md={24}>
-                        <img src="/assets/moon.jpg" alt="" className="img-fluid"/>
-
-                    </Col>               
-                    <Col lg={12} md={24} sm={24} xs={24} className="text-start">
-                        <h1 className="display-5 semi-bold">Novus Mundi</h1>
-                        <p className=" mt-5">
-                        The world is changing, we firmly believe that web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive way in many industries and with the passage of time will eventually become the tapestry on which a new world is woven, as happened with the internet as we know it. Today we are far from this utopia but there are many benefits it can offer compared to current solutions and from NOMU we want to help you to start benefiting from them.                     
-
-                        </p>                        
-                        <p className="text-start">
-                        Nomu is a group of dreamers, specialized in blockchain technology, web 3.0 and NFTs that will guide and advise you in the process of creating and implementing your project.
-                        </p>
-                        <button className="mt-5 btn btn-outline-light">Learn more</button>
-                    </Col>
-                </Row>                                
-            </div>
-            </div>            
+            </div>          
             <div className="mt-10 responsiveBackground" style={{background:"url('/assets/prism.jpg')"}}>
                 <div className="container text-white  p-10">
                 <Row justify="center">
@@ -168,7 +168,7 @@ export default function Home3(props){
                 <div className="mt-5 p-10 container-fluid">
                     <Row gutter={[16,16]} justify="space-between" align="middle">
                         <Col lg={10} md={24}>
-                        <h1>The nomu team</h1>
+                        <h1 id="team">The nomu team</h1>
                         <p className="mt-5">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque volutpat libero vel faucibus. Etiam dictum lectus non viverra venenatis. Aliquam id eros mattis, pellentesque nunc vel, maximus augue. Maecenas tristique pharetra magna ac varius. Morbi auctor urna nec cursus rutrum. Nam vel nulla elit. Aenean vitae congue risus. 
                         </p>
@@ -183,7 +183,7 @@ export default function Home3(props){
                     </Row>
                 </div>     
                 <div className="mt-10">
-                    <h1 className="bold display-1 text-center">NFT Collections</h1>
+                    <h1 className="bold display-1 text-center" id="collections">NFT Collections</h1>
                     <div className="mt-10  p-10 responsiveBackground fullScreen d-flex align-items-center"  style={{background:"url('/assets/nomush2.png')"}} >
                         <div className="">
                         <Row justify="end">
@@ -245,6 +245,6 @@ export default function Home3(props){
                     </Row>
                 </div>
             </div>
-        </div>
+        </Layout>
     )
 }
