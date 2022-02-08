@@ -61,12 +61,13 @@ body{
 }
 
 
-.transparent-grey-bg{
-  background-color: #a39797a8;
+.transparent-white-bg{
+  background-color: #ffffffad;
 }
 .mt-10{
   margin-top: 10vh;
 }
+
 .mb-10{
   margin-bottom: 10rem;
 }
@@ -162,3 +163,17 @@ box-shadow: 5px 8px 5px grey;
    transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 
+
+.nomushbg{
+  background-repeat:no-repeat!important;
+  -webkit-background-size:cover!important;
+  -moz-background-size:cover!important;
+  -o-background-size:cover!important;
+  background-size:cover!important;
+  background-position:67%!important;
+}
+
+.teamPhoto{
+  border-radius: 50%;
+  max-width: 300px;
+}

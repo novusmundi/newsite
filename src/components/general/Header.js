@@ -20,7 +20,7 @@ export default function Header(props){
 }
     },[])
     return(
-                    <nav class="navbar smart-scroll navbar-expand-lg navbar-light bg-light px-5">
+                    <nav class="navbar smart-scroll navbar-expand-lg navbar-light transparent-white-bg px-5">
                         <a class="navbar-brand" href="/#home">
                             <img src="/logo.png" alt="" className="img-fluid logo"/>
                         </a>

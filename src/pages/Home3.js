@@ -27,14 +27,8 @@ export default function Home3(props){
         <Layout>
             <div id="home" className="">
                 <Row justify="center">
-                    <Col md={20} sm={20} xs={20} lg={10}>
-                    <div className="mx-auto mt-5 text-center">
-                    {/* <div className="d-none d-lg-block">
-                        <img src="/logo.png" alt="" className="img-fluid"/>
-                    </div>
-                    <div className="d-lg-none">
-                        <img src="/logo.png" alt="" className="img-fluid img-md"/>
-                    </div> */}
+                    <Col md={24} sm={24} xs={24} lg={12}>
+                    <div className=" mt-5 text-center">
                         <img src="/assets/nomulabs.jpg" alt="" className="img-fluid"/>
                         <p className="text-center semi-bold mt-5">
                         Our mission is to educate, share and provide services to help people reap the benefits that NFTs can offer. Through preparation, expertise and professionalism we aim to go hand in hand with those that want to be a part of the future.
@@ -68,17 +62,16 @@ export default function Home3(props){
                     <Col lg={12} md={24} sm={24} xs={24} className="text-start">
                         <h1 className="display-5 semi-bold">Novus Mundi</h1>
                         <p className=" mt-5">
-                        The world is changing, we firmly believe that web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive way in many industries and with the passage of time will eventually become the tapestry on which a new world is woven, as happened with the internet as we know it. Today we are far from this utopia but there are many benefits it can offer compared to current solutions and from NOMU we want to help you to start benefiting from them.                     
-
+                        The world is changing faster than ever. At Nomu Labs we firmly believe that Web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive manner in many different industries and with the passage of time they will become the canvas on which a new world is painted, just as the internet has changed our lives in the past decade. Today, a lot of these solutions are far from perfect but there are still many benefits they can offer compared to what we have and from Nomu Labs we want to help you to start benefiting from them.
                         </p>                        
                         <p className="text-start">
-                        Nomu is a group of dreamers, specialized in blockchain technology, web 3.0 and NFTs that will guide and advise you in the process of creating and implementing your project.
+                        Nomu Labs is a group of dreamers and doers, who will guide and advise you in the process of creating and implementing NFT and Web 3.0 projects for your business or personal benefit.
                         </p>
                         <button className="mt-5 btn btn-outline-light">Learn more</button>
                     </Col>
                 </Row>                                
             </div>  
-            <div className="mt-10 container">
+            <div className="p-10 ">
                 <Row justify="space-between" gutter={[16,32]} id="services">
                     <Col className="text-center" md={24} lg={8}>
                         <h1 className="semi-bold ">
@@ -136,12 +129,15 @@ export default function Home3(props){
                             <p className="text-start mt-3">
                             If you are thinking of entering the NFT market, do not hesitate to contact us without any commitment. We will be delighted to listen to your ideas and contribute our professional and technical vision.
                             </p>
+                            <a href="mailto:info@nomulabs.com" className="text-white">
+                                <h4 className="text-white">Feel free to hit us up at info@nomulabs.com</h4>
+                            </a>
                         </div>
                         </Col>
                     </Row>
                 </div>
                 </div>     
-                <div className="p-10 responsiveBackground" style={{background:"url('/assets/gradient.jpg')"}}>
+                <div className="mt-10 p-10 responsiveBackground" style={{background:"url('/assets/gradient.jpg')"}}>
                     <Row justify="end">
                         <Col lg={10} md={24}>
                         <h1 className="text-white">Educational Workshops</h1>
@@ -166,50 +162,73 @@ export default function Home3(props){
                     </Row>
                 </div>  
                 <div className="mt-5 p-10 container-fluid">
-                    <Row gutter={[16,16]} justify="space-between" align="middle">
-                        <Col lg={10} md={24}>
-                        <h1 id="team">The nomu team</h1>
-                        <p className="mt-5">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque volutpat libero vel faucibus. Etiam dictum lectus non viverra venenatis. Aliquam id eros mattis, pellentesque nunc vel, maximus augue. Maecenas tristique pharetra magna ac varius. Morbi auctor urna nec cursus rutrum. Nam vel nulla elit. Aenean vitae congue risus. 
-                        </p>
-                        <p className="mt-3">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque volutpat libero vel faucibus. Etiam dictum lectus non viverra venenatis. Aliquam id eros mattis, pellentesque nunc vel, maximus augue. Maecenas tristique pharetra magna ac varius. Morbi auctor urna nec cursus rutrum. Nam vel nulla elit. Aenean vitae congue risus. 
-                        </p>
-                        <button className="btn btn-dark mt-3">Learn more</button>
-                        </Col>
-                        <Col lg={12} md={24} >
-                            <img src="/assets/dogs.jpg" alt="" className="img-fluid"/>
-                        </Col>
-                    </Row>
+                        <h1 className="display-1 semi-bold text-center" id="team">The Nomu Team</h1>
+                        <Row gutter={[16,16]} justify="space-between" align="middle" className="mt-10">
+                            <Col lg={8} md={24} className="text-center">
+                                <img src="/assets/team/pablo.png" alt="" className="img-fluid teamPhoto"/>
+                                <h4 className="mt-3">Pablo Astiarraga</h4>
+                                <h5 className="mt-2">Designer & co-Founder</h5>
+                            </Col>
+                            <Col lg={8} md={24} className="text-center">
+                                <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
+                                <h4 className="mt-3">Borja Colom</h4>
+                                <h5 className="mt-2">Architec & co-Founder</h5>
+                            </Col>
+                            <Col lg={8} md={24} className="text-center">
+                                <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
+                                <h4 className="mt-3">Javier Mateache</h4>
+                                <h5 className="mt-2">BD & co-Founder</h5>
+                            </Col>
+                        </Row>
+                        <Row justify="center" align="middle" className="mt-5">
+                        <Col lg={8} md={24} className="text-center">
+                                <img src="/assets/team/luis.png" alt="" className="img-fluid teamPhoto"/>
+                                <h4 className="mt-3">Luis Pozo</h4>
+                                <h5 className="mt-2">Developer & co-Founder</h5>
+                            </Col>
+                            <Col lg={8} md={24} className="text-center">
+                                <img src="/assets/team/edu.png" alt="" className="img-fluid teamPhoto"/>
+                                <h4 className="mt-3">Eduardo Thapar</h4>
+                                <h5 className="mt-2">Marketing, BD & co-Founder</h5>
+                            </Col>
+                        </Row>
                 </div>     
                 <div className="mt-10">
                     <h1 className="bold display-1 text-center" id="collections">NFT Collections</h1>
-                    <div className="mt-10  p-10 responsiveBackground fullScreen d-flex align-items-center"  style={{background:"url('/assets/nomush2.png')"}} >
+                    <div className="mt-10  p-10 nomushbg d-flex align-items-center"  style={{background:"url('/assets/nomush2.png')"}} >
                         <div className="">
                         <Row justify="end">
-                            <Col lg={8} md={24}>
-                                <h1 className="text-white text-end">The Nomush Collection</h1>
+                            <Col lg={10} md={24}>
+                                <div className="text-end d-none d-lg-block ">
+                                    <img src="/assets/nomushlogo.png" alt="" className="img-fluid img-lg"/>
+                                </div>
+                                <div className="text-end d-lg-none ">
+                                    <img src="/assets/nomushlogo.png" alt="" className="img-fluid img-md"/>
+                                </div>
+                                <h1 className="text-white text-end mt-5">The Nomush Collection</h1>
                                 <p className="mt-3 text-white text-end">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque volutpat libero vel faucibus. Etiam dictum lectus non viverra venenatis. Aliquam id eros mattis, pellentesque nunc vel, maximus augue. Maecenas tristique pharetra magna ac varius. Morbi auctor urna nec cursus rutrum. Nam vel nulla elit. Aenean vitae congue risus. 
-                                </p>
+                                The Nomush collection symbolizes the growth of our community. With our logo being the main character, the growing skin acts as a reference to our transition into the kingdom of NFTs. This collection aims to attract new players into the game, briging non crypto-savvy art collectors as early holders and believers.                                </p>
                                 <div className="text-end">
-                                <button className="mt-3 btn btn-outline-light">Check out</button>
+                                    <a target="_blank" rel="noreferrer" href="https://opensea.io/collection/the-nomush">
+                                        <button className="mt-3 btn btn-outline-light">Check out</button>   
+                                    </a>
 
                                 </div>
                             </Col>
                         </Row>
                         </div>
                     </div>
-                    <div className="p-10 responsiveBackground fullScreen d-flex align-items-center"  style={{background:"url('/assets/prism.jpg')"}} >
+                    <div className="p-10 responsiveBackground d-flex align-items-center"  style={{background:"url('/assets/prism.jpg')"}} >
                         <div className="">
                         <Row justify="start">
-                            <Col lg={8} md={24}>
-                                <h1 className="text-white text-start">The Prism Collection</h1>
+                            <Col lg={10} md={24}>
+                                <img src="/assets/prismblanc.png" alt="" className="img-fluid img-lg"/>
+                                <h1 className="text-white text-start mt-5">The Prism Collection</h1>
                                 <p className="mt-3 text-white text-start">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque volutpat libero vel faucibus. Etiam dictum lectus non viverra venenatis. Aliquam id eros mattis, pellentesque nunc vel, maximus augue. Maecenas tristique pharetra magna ac varius. Morbi auctor urna nec cursus rutrum. Nam vel nulla elit. Aenean vitae congue risus. 
+                                The term refraction stands for a physical change in the direction of waves passing from one medium to another, we see the transition from Web 2.0 to Web 3.0 as the change of medium, with art acting as the wave, the Prism collection represents the journey of the every-day art creator & collector into this new vast realm of opportunities.
                                 </p>
                                 <div className="text-start">
-                                <button className="mt-3 btn btn-outline-light">Check out</button>
+                                <button className="mt-3 btn btn-outline-light">Coming Soon</button>
 
                                 </div>
                             </Col>
@@ -229,16 +248,24 @@ export default function Home3(props){
                         <Col>
                             <Row className="text-white" gutter={[16,16]}>
                                 <Col>
-                                    <FaInstagram></FaInstagram>
+                                    <a target="_blank" rel="noreferrer" className="text-white" href="https://www.instagram.com/nomulabs/">
+                                        <FaInstagram></FaInstagram>
+                                    </a>
                                 </Col>
                                 <Col>
+                                <a target="_blank" rel="noreferrer"  href="https://discord.com/invite/zKHF2n4xmh">
                                     <FaDiscord></FaDiscord>
+                                </a>
                                 </Col>
                                 <Col>
-                                    <FaLinkedin></FaLinkedin>
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/nomu-nft" className="text-white">
+                                        <FaLinkedin></FaLinkedin>   
+                                    </a>
                                 </Col>
                                 <Col>
+                                <a className="text-white"  target="_blank" rel="noreferrer" href="twitter.com/nomuHQ/">
                                     <FaTwitter></FaTwitter>
+                                </a>
                                 </Col>                                                                                                
                             </Row>
                         </Col>
