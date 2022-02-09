@@ -53,14 +53,14 @@ export default function Home3(props){
                 </div>
             </div>
 
-            <div className=" p-10" id="about">
+            <div className=" container mt-10" id="about">
             <Row justify="end" align="middle" className="mt-5">   
                     <Col lg={10} md={24}>
                         <img src="/assets/moon.jpg" alt="" className="img-fluid"/>
 
                     </Col>               
                     <Col lg={12} md={24} sm={24} xs={24} className="text-start">
-                        <h1 className="display-5 semi-bold">Novus Mundi</h1>
+                        <h1 className="display-5 bold">"Novus Mundi"</h1>
                         <p className=" mt-5">
                         The world is changing faster than ever. At Nomu Labs we firmly believe that Web 3.0 and NFTs are here to stay. These technologies have entered in a disruptive manner in many different industries and with the passage of time they will become the canvas on which a new world is painted, just as the internet has changed our lives in the past decade. Today, a lot of these solutions are far from perfect but there are still many benefits they can offer compared to what we have and from Nomu Labs we want to help you to start benefiting from them.
                         </p>                        
@@ -71,8 +71,8 @@ export default function Home3(props){
                     </Col>
                 </Row>                                
             </div>  
-            <div className="p-10 ">
-                <Row justify="space-between" gutter={[16,32]} id="services">
+            <div className="container mt-10 ">
+                <Row justify="space-between" gutter={[32,32]} id="services">
                     <Col className="text-center" md={24} lg={8}>
                         <h1 className="semi-bold ">
                             Consulting
@@ -99,7 +99,7 @@ export default function Home3(props){
                     </Col>                                        
                 </Row>
             </div>          
-            <div className="mt-10 responsiveBackground" style={{background:"url('/assets/prism.jpg')"}}>
+            <div className="mt-15 responsiveBackground" style={{background:"url('/assets/prism.jpg')"}}>
                 <div className="container text-white  p-10">
                 <Row justify="center">
                         <Col md={24} lg={20}>
@@ -140,29 +140,20 @@ export default function Home3(props){
                 <div className="mt-10 p-10 responsiveBackground" style={{background:"url('/assets/gradient.jpg')"}}>
                     <Row justify="end">
                         <Col lg={10} md={24}>
-                        <h1 className="text-white">Educational Workshops</h1>
-
+                            <h1 className="text-white">Educational Workshops</h1>
                         </Col>
                     </Row>
                     <Row justify="end" align="middle" className="mt-5">
-                        {/* <Col lg={10} md= {24} gutter={[16,16]}>
-                            <div className="text-center">
-                                <img src="/assets/nomuxiade.png" alt="" className="img-fluid"/>
-                                <p className="text-white">Powered by NOMU</p>
-
-                            </div>
-                        </Col> */}
                         <Col lg={10} md={24}>
                         <h4 className="text-white">Transform your art into NFTs - 19/02/2022</h4>
                         <p className="mt-3 text-white">
                             En este taller te ayudaremos a conocer las herramientas disponibles en el mundo de los NFTs para poder expandir tu trabajo como creativo.
                         </p>
-                        <button className="btn btn-outline-light">Learn more</button>
                         </Col>
                     </Row>
                 </div>  
                 <div className="mt-5 p-10 container-fluid">
-                        <h1 className="display-1 semi-bold text-center" id="team">The Nomu Team</h1>
+                        <h1 className="display-1 bold text-center" id="team">The Nomu Team</h1>
                         <Row gutter={[16,16]} justify="space-between" align="middle" className="mt-10">
                             <Col lg={8} md={24} className="text-center">
                                 <img src="/assets/team/pablo.png" alt="" className="img-fluid teamPhoto"/>
@@ -172,7 +163,7 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
                                 <h4 className="mt-3">Borja Colom</h4>
-                                <h5 className="mt-2">Architec & co-Founder</h5>
+                                <h5 className="mt-2">Architect & co-Founder</h5>
                             </Col>
                             <Col lg={8} md={24} className="text-center">
                                 <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
@@ -193,7 +184,7 @@ export default function Home3(props){
                             </Col>
                         </Row>
                 </div>     
-                <div className="mt-10">
+                <div className="mt-5">
                     <h1 className="bold display-1 text-center" id="collections">NFT Collections</h1>
                     <div className="mt-10  p-10 nomushbg d-flex align-items-center"  style={{background:"url('/assets/nomush2.png')"}} >
                         <div className="">
