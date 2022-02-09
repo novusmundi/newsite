@@ -177,7 +177,7 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
                                 <h4 className="mt-3">Javier Mateache</h4>
-                                <h5 className="mt-2">BD & co-Founder</h5>
+                                <h5 className="mt-2">Business Manager & co-Founder</h5>
                             </Col>
                         </Row>
                         <Row justify="center" align="middle" className="mt-5" gutter={[16,16]}>
