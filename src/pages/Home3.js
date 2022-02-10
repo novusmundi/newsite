@@ -2,7 +2,7 @@ import React from 'react'
 import {Row,Col} from 'antd'
 import { FaDiscord,FaTwitter,FaInstagram,FaLinkedin } from 'react-icons/fa';
 import Layout from  '../components/general/Layout.js'
-import Intro from '../components/home/Intro'
+// import Intro from '../components/home/Intro'
 
 var EmbedVideo = function(props) {
     return (
@@ -25,7 +25,7 @@ export default function Home3(props){
 
     return(
         <Layout>
-            <Intro></Intro>
+            {/* <Intro></Intro> */}
             <div id="home" className="">
                 <Row justify="center">
                     <Col md={24} sm={24} xs={24} lg={12}>
