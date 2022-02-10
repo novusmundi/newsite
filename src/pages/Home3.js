@@ -178,8 +178,9 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 
                                     <div className="imageContainer">
-                                     <img src="/assets/team/asti2.png" alt="" className="img-fluid teamPhoto"/>
-
+                                    <a href="https://www.linkedin.com/in/pablo-astiarraga-perez-de-castro-866421210/">
+                                        <img src="/assets/team/asti2.png" alt="" className="img-fluid teamPhoto"/>
+                                    </a>
                                     </div>
                                 <h4 className="mt-3">Pablo Astiarraga</h4>
                                 <h5 className="mt-2">Designer & co-Founder</h5>
@@ -187,7 +188,9 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 
                                     <div className="imageContainer">
-                                        <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
+                                        <a href="https://www.borjacolom.com/">
+                                            <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
+                                        </a>
                                     </div>
                                 <h4 className="mt-3">Borja Colom</h4>
                                 <h5 className="mt-2">Architect & co-Founder</h5>
@@ -195,7 +198,9 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 
                                     <div className="imageContainer">
-                                        <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
+                                        <a href="https://www.linkedin.com/in/javier-mateache/">
+                                            <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
+                                        </a>
                                     </div>
                                 <h4 className="mt-3">Javier Mateache</h4>
                                 <h5 className="mt-2">Business Manager & co-Founder</h5>
@@ -203,7 +208,9 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 
                                     <div className="imageContainer">
-                                        <img src="/assets/team/luis2.png" alt="" className="img-fluid teamPhoto"/>
+                                        <a href="https://luispozo.es/">
+                                            <img src="/assets/team/luis2.png" alt="" className="img-fluid teamPhoto"/>
+                                        </a>
                                     </div>
                                 <h4 className="mt-3">Luis Pozo</h4>
                                 <h5 className="mt-2">Developer & co-Founder</h5>
@@ -211,7 +218,9 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 
                                     <div className="imageContainer">
-                                        <img src="/assets/team/edu2.png" alt="" className="img-fluid teamPhoto"/>
+                                        <a href="https://www.linkedin.com/in/eduardothapar/">
+                                            <img src="/assets/team/edu2.png" alt="" className="img-fluid teamPhoto"/>
+                                        </a>
                                     </div>
                                 <h4 className="mt-3">Eduardo Thapar</h4>
                                 <h5 className="mt-2">Marketing, BD & co-Founder</h5>
