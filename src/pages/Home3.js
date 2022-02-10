@@ -137,19 +137,19 @@ export default function Home3(props){
             </div>
             <div className="d-lg-none container w-100">
                 <div className="mt-10">
-                    <div className="p-3">
+                    <div className="p-2">
                     <img src="/assets/longterm.png" alt="" className="img-fluid mobile-service-img"/>
                     <p className="mt-5">
                             In a changing world, companies need to be on their feet, which requires effective strategies and long-term planification. We are very excited to see how companies and brands are gradually joining the NFT space. However, you will not add value to your business by simply creating or implementing NFTs because you want to follow a trend. It is important to analyze where they could be beneficial for you and to build a strategy to create value around them for the following years.
                     </p>
                     </div>
-                    <div className="p-3 mt-5">
+                    <div className="p-2 mt-5">
                     <img src="/assets/flexibility.png" alt="" className="img-fluid mobile-service-img"/>
                     <p className="mt-5">
                     Not everyone has the same needs. We aim to offer personalized and flexible services based on the client. We provide all the relevant information regarding the management of processes and communication, covering the professional and technical implications of implementing NFTs to your business or personal life.
                     </p>
                     </div>
-                    <div className="p-3 mt-5">
+                    <div className="p-2 mt-5">
                     <img src="/assets/listen.png" alt="" className="img-fluid mobile-service-img"/>
                     <p className="mt-5">
                     If you are thinking of entering the NFT space, do not hesitate to contact us without any commitment. We will be delighted to listen to your ideas and contribute our professional and technical vision. There are no stupid questions!
@@ -168,7 +168,7 @@ export default function Home3(props){
                         <h1 className="text-white">Educational Workshops</h1>
                         <h4 className="text-white mt-5">Transform your art into NFTs - 19/02/2022</h4>
                         <p className="mt-3 text-white">
-                            En este taller te ayudaremos a conocer las herramientas disponibles en el mundo de los NFTs para poder expandir tu trabajo como creativo.
+                In this workshop we will help you understand the tools available in the NFT world in order to expand your work as creators.
                         </p>
                         </Col>
                     </Row>
