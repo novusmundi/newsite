@@ -9,9 +9,18 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Home3 from './pages/Home3'
 
-import ReactGA from 'react-ga';const TRACKING_ID = "UA-220129804-1"; // YOUR_OWN_TRACKING_ID
-ReactGA.initialize(TRACKING_ID);
+import ReactGA from 'react-ga4';
 
+const TRACKING_ID = "UA-220129804-1"; // YOUR_OWN_TRACKING_ID
+
+try {
+  setTimeout(_ => {
+    const ga4react = new ReactGA(TRACKING_ID);
+    ga4react.initialize().catch(err => console.error(err));
+  }, 4000);
+} catch (err) {
+      console.error(err);
+}
 
 function App() {
   return (
