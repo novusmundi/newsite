@@ -43,7 +43,9 @@ body{
 .logo {
   max-width: 50px;
 }
-
+.logo-min{
+  max-width: 30px;
+}
 
 .fullScreen{
   min-height: 100vh;
@@ -88,12 +90,23 @@ body{
 .p-10{
   padding: 10vw;
 }
+.p-15{
+  padding: 15vw;
+}
 .p-20{
   padding: 20vw;
+}
+.px-15{
+  padding-left: 15vw;
+  padding-right: 15vw;
 }
 .py-10{
   padding-top: 10vh;
   padding-bottom: 10vh;
+}
+.py-15{
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 .py-20{
   padding-top: 10vw;
@@ -183,6 +196,12 @@ box-shadow: 5px 8px 5px grey;
 .teamPhoto{
   border-radius: 50%;
   max-width: 300px;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+.teamPhoto:hover{
+  box-shadow: 0px 0px 15px 15px rgba(179, 179, 179, 0.37);
 }
 
 .service-image{
@@ -191,5 +210,21 @@ box-shadow: 5px 8px 5px grey;
 
 .mobile-service-img{
   border-radius: 20px;
-  box-shadow: #8d8c8c7a 10px 10px 10px;
+  /* box-shadow: 5px 5px 10px #3f3f3f; */
+}
+
+.imageCointer{
+  position: relative;
+}
+.imageCointer image{
+  display: block;
+}
+.imageCointer .linkIcon{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+}
+.noLink{
+  text-decoration: none;
 }

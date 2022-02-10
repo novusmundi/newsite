@@ -73,10 +73,10 @@ export default function Home3(props){
                     </Col>
                 </Row>                                
             </div>  
-            <div className="black-bg text-white mt-10 py-10">
+            <div className="black-bg text-white mt-10 py-10 px-5 w-100">
 
 
-            <div className="container px-5 ">
+            <div className="container">
                 <Row justify="space-between" gutter={[32,32]} id="services">
                     <Col className="text-center" md={24} lg={8}>
                         <h1 className="bold text-white">
@@ -110,7 +110,7 @@ export default function Home3(props){
                             <div className=" mt-20">
                             <h1 className="text-white bold">Long-term Vision</h1>
                             <p className="mt-3">
-                            In a changing world, companies need to be on their feet, which requires effective strategies and long-term planification. We are very excited to see how companies and brands are gradually joining the NFT space. However, you will not add value to your business by simply creating or implementing NFTs because you want to follow a trend. It is important to analyze where they could be beneficial for you and to build a strategy to create value around them for the following years.
+                                In a changing world, companies need to be on their feet, which requires effective strategies and long-term planification. We are very excited to see how companies and brands are gradually joining the NFT space. However, you will not add value to your business by simply creating or implementing NFTs because you want to follow a trend. It is important to analyze where they could be beneficial for you and to build a strategy to create value around them for the following years.
                             </p>
                             </div>
                             <img src="/assets/studio.jpg" alt="" className="img-fluid  mt-10"/>
@@ -134,7 +134,7 @@ export default function Home3(props){
                     </Col>
                 </Row>
             </div>
-            <div className="d-lg-none container">
+            <div className="d-lg-none container w-100">
                 <div className="mt-10">
                     <div className="p-3">
                     <img src="/assets/longterm.png" alt="" className="img-fluid mobile-service-img"/>
@@ -158,15 +158,14 @@ export default function Home3(props){
             </div>
      
             </div>    
-            <div className="mt-10 p-10 responsiveBackground" style={{background:"url('/assets/gradient.jpg')"}}>
-                    <Row justify="end">
-                        <Col lg={10} md={24}>
-                            <h1 className="text-white">Educational Workshops</h1>
+            <div className="p-10 responsiveBackground" style={{background:"url('/assets/gradient.jpg')"}}>
+                    <Row justify="space-between" align="middle" className="mt-5" gutter={[32,32]}>
+                        <Col lg={5} md={24}>
+                            <img src="/assets/nomuxiade.png" alt="" className="img-fluid px-3"/>
                         </Col>
-                    </Row>
-                    <Row justify="end" align="middle" className="mt-5">
                         <Col lg={10} md={24}>
-                        <h4 className="text-white">Transform your art into NFTs - 19/02/2022</h4>
+                        <h1 className="text-white">Educational Workshops</h1>
+                        <h4 className="text-white mt-5">Transform your art into NFTs - 19/02/2022</h4>
                         <p className="mt-3 text-white">
                             En este taller te ayudaremos a conocer las herramientas disponibles en el mundo de los NFTs para poder expandir tu trabajo como creativo.
                         </p>
@@ -175,38 +174,54 @@ export default function Home3(props){
                 </div>  
                 <div className="mt-5 p-10 container-fluid">
                         <h1 className="display-1 bold text-center" id="team">The Nomu Team</h1>
-                        <Row gutter={[16,16]} justify="space-between" align="middle" className="mt-10">
+                        <Row gutter={[32,64]} justify="center" align="middle" className="mt-10">
                             <Col lg={8} md={24} className="text-center">
-                                <img src="/assets/team/pablo.png" alt="" className="img-fluid teamPhoto"/>
+                                
+                                    <div className="imageContainer">
+                                     <img src="/assets/team/asti2.png" alt="" className="img-fluid teamPhoto"/>
+
+                                    </div>
                                 <h4 className="mt-3">Pablo Astiarraga</h4>
                                 <h5 className="mt-2">Designer & co-Founder</h5>
                             </Col>
                             <Col lg={8} md={24} className="text-center">
-                                <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
+                                
+                                    <div className="imageContainer">
+                                        <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
+                                    </div>
                                 <h4 className="mt-3">Borja Colom</h4>
                                 <h5 className="mt-2">Architect & co-Founder</h5>
                             </Col>
                             <Col lg={8} md={24} className="text-center">
-                                <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
+                                
+                                    <div className="imageContainer">
+                                        <img src="/assets/team/javi.png" alt="" className="img-fluid teamPhoto"/>
+                                    </div>
                                 <h4 className="mt-3">Javier Mateache</h4>
                                 <h5 className="mt-2">Business Manager & co-Founder</h5>
                             </Col>
-                        </Row>
-                        <Row justify="center" align="middle" className="mt-5" gutter={[16,16]}>
-                        <Col lg={8} md={24} className="text-center">
-                                <img src="/assets/team/luis.png" alt="" className="img-fluid teamPhoto"/>
+                            <Col lg={8} md={24} className="text-center">
+                                
+                                    <div className="imageContainer">
+                                        <img src="/assets/team/luis2.png" alt="" className="img-fluid teamPhoto"/>
+                                    </div>
                                 <h4 className="mt-3">Luis Pozo</h4>
                                 <h5 className="mt-2">Developer & co-Founder</h5>
                             </Col>
                             <Col lg={8} md={24} className="text-center">
-                                <img src="/assets/team/edu.png" alt="" className="img-fluid teamPhoto"/>
+                                
+                                    <div className="imageContainer">
+                                        <img src="/assets/team/edu2.png" alt="" className="img-fluid teamPhoto"/>
+                                    </div>
                                 <h4 className="mt-3">Eduardo Thapar</h4>
                                 <h5 className="mt-2">Marketing, BD & co-Founder</h5>
                             </Col>
                         </Row>
+                        <Row justify="center" align="middle" className="mt-5" gutter={[16,16]}>
+
+                        </Row>
                 </div>     
                 <div className="mt-5">
-                    <h1 className="bold display-1 text-center" id="collections">NFT Collections</h1>
                     <div className="mt-10  p-10 nomushbg d-flex align-items-center"  style={{background:"url('/assets/nomush2.png')"}} >
                         <div className="">
                         <Row justify="end">
@@ -250,37 +265,111 @@ export default function Home3(props){
                 </div>
                 
             <div className="bg-black">
-                <div className="container-fluid px-5 py-3">
-                    <Row align="bottom" justify="space-between" gutter={[16,16]}>
-                        <Col>
-                            <span className="text-white">
-                                Nomu Labs S.L.
-                            </span>
+                <div className="px-15 py-10">
+                    <Row justify="space-between" align="middle" gutter={[32,32]}>
+                    <Col className="text-end w-100 d-lg-none " lg={10} md={24}>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Home
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    About
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Services
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Team
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    NFT Collections
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Contact
+                        </h1>
+                        </a>                      
                         </Col>
-                        <Col>
-                            <Row className="text-white" gutter={[16,16]}>
-                                <Col>
-                                    <a target="_blank" rel="noreferrer" className="text-white" href="https://www.instagram.com/nomulabs/">
-                                        <FaInstagram></FaInstagram>
+                        <Col lg={10} md={24}>
+                            <div className="d-lg-none mt-5"></div>
+                            <h1 className="display-3 text-white bold">Make your dreams come true:</h1>
+                            <a href="mailto:info@nomulabs.com" className="text-white">
+                                <h2 className="text-white semi-bold mt-3">info@nomulabs.com</h2>
+                            </a>
+                            <Row className="text-white mt-5" justify="start" gutter={[16,16]}>
+                                    <Col>
+                                        <a target="_blank" rel="noreferrer" className="text-white" href="https://www.instagram.com/nomulabs/">
+                                            <h1 className="text-white">
+                                            <FaInstagram></FaInstagram>
+                                            </h1>
+                                        </a>
+                                    </Col>
+                                    <Col>
+                                    <a target="_blank" rel="noreferrer"  className="text-white" href="https://discord.com/invite/zKHF2n4xmh">
+                                        <h1 className="text-white">
+                                        <FaDiscord></FaDiscord>
+                                        </h1>
                                     </a>
-                                </Col>
-                                <Col>
-                                <a target="_blank" rel="noreferrer"  className="text-white" href="https://discord.com/invite/zKHF2n4xmh">
-                                    <FaDiscord></FaDiscord>
-                                </a>
-                                </Col>
-                                <Col>
-                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/nomu-nft" className="text-white">
-                                        <FaLinkedin></FaLinkedin>   
+                                    </Col>
+                                    <Col>
+                                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/nomu-nft" className="text-white">
+                                            <h1 className="text-white">
+                                            <FaLinkedin></FaLinkedin>   
+                                            </h1>
+                                        </a>
+                                    </Col>
+                                    <Col>
+                                    <a className="text-white"  target="_blank" rel="noreferrer" href="twitter.com/nomuHQ/">
+                                        <h1 className="text-white">
+                                        <FaTwitter></FaTwitter>
+                                        </h1>
                                     </a>
-                                </Col>
-                                <Col>
-                                <a className="text-white"  target="_blank" rel="noreferrer" href="twitter.com/nomuHQ/">
-                                    <FaTwitter></FaTwitter>
-                                </a>
-                                </Col>                                                                                                
-                            </Row>
+                                    </Col>                                                                                                
+                                </Row>  
                         </Col>
+                        <Col className="text-end w-100 d-none d-lg-block " lg={10} md={24}>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Home
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    About
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Services
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Team
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    NFT Collections
+                        </h1>
+                        </a>
+                        <a href="/#home" className="noLink mt-3 ">
+                        <h1 className="text-white bold">
+                                    Contact
+                        </h1>
+                        </a>                      
+                        </Col>
+                        
+
                     </Row>
                 </div>
             </div>

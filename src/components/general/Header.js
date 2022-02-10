@@ -22,7 +22,8 @@ export default function Header(props){
     return(
                     <nav class="navbar smart-scroll navbar-expand-lg navbar-light transparent-white-bg px-5">
                         <a class="navbar-brand" href="/#home">
-                            <img src="/logo.png" alt="" className="img-fluid logo"/>
+                            <img src="/logo.png" alt="" className="d-none d-lg-block img-fluid logo"/>
+                            <img src="/logo.png" alt="" className="d-lg-none img-fluid logo-min"/>
                         </a>
                         <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
