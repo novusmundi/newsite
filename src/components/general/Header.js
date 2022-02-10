@@ -35,6 +35,7 @@ export default function Header(props){
                         <li class="nav-item"><a class="nav-link" href="/#services"> Services </a></li>
                         <li class="nav-item"><a class="nav-link" href="/#team"> Team </a></li>
                         <li class="nav-item"><a class="nav-link" href="/#collections"> NFT Collections </a></li>
+                        <li class="nav-item"><a class="nav-link" href="/#contact">Contact</a></li>
 
                         </ul>
                     </div>

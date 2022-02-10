@@ -273,27 +273,27 @@ export default function Home3(props){
                                     Home
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#about" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     About
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#services" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     Services
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#team" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     Team
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#collections" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     NFT Collections
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#contact" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     Contact
                         </h1>
@@ -301,7 +301,7 @@ export default function Home3(props){
                         </Col>
                         <Col lg={10} md={24}>
                             <div className="d-lg-none mt-5"></div>
-                            <h1 className="display-3 text-white bold">Make your dreams come true:</h1>
+                            <h1 className="display-3 text-white bold" id="contact">Make your dreams come true:</h1>
                             <a href="mailto:info@nomulabs.com" className="text-white">
                                 <h2 className="text-white semi-bold mt-3">info@nomulabs.com</h2>
                             </a>
@@ -342,27 +342,27 @@ export default function Home3(props){
                                     Home
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#about" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     About
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#services" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     Services
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#team" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     Team
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#collections" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     NFT Collections
                         </h1>
                         </a>
-                        <a href="/#home" className="noLink mt-3 ">
+                        <a href="/#contact" className="noLink mt-3 ">
                         <h1 className="text-white bold">
                                     Contact
                         </h1>
