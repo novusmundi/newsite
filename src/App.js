@@ -9,7 +9,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Home3 from './pages/Home3'
 
-import ReactGA from 'react-ga';const TRACKING_ID = "G-00FXRCK3GQ"; // YOUR_OWN_TRACKING_ID
+import ReactGA from 'react-ga';const TRACKING_ID = "G-JLX7WCSE8V"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 
