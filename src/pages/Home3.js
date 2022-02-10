@@ -2,7 +2,7 @@ import React from 'react'
 import {Row,Col} from 'antd'
 import { FaDiscord,FaTwitter,FaInstagram,FaLinkedin } from 'react-icons/fa';
 import Layout from  '../components/general/Layout.js'
-
+import Intro from '../components/home/Intro'
 
 var EmbedVideo = function(props) {
     return (
@@ -25,11 +25,12 @@ export default function Home3(props){
 
     return(
         <Layout>
+            <Intro></Intro>
             <div id="home" className="">
                 <Row justify="center">
                     <Col md={24} sm={24} xs={24} lg={12}>
                     <div className=" mt-5 text-center">
-                        <img src="/assets/nomulabs.jpg" alt="" className="img-fluid"/>
+                        <img src="/assets/nomulabs.png" alt="" className="img-fluid px-3"/>
                         <p className="text-center semi-bold mt-5 p-3">
                         Our mission is to educate, share and provide services to help people reap the benefits that NFTs can offer. Through preparation, expertise and professionalism we aim to go hand in hand with those that want to be a part of the future.
                         </p>
