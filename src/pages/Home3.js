@@ -30,7 +30,7 @@ export default function Home3(props){
                 <Row justify="center">
                     <Col md={24} sm={24} xs={24} lg={12}>
                     <div className=" mt-5 text-center">
-                        <img src="/assets/nomulabs.png" alt="" className="img-fluid px-10"/>
+                        <img src="/assets/nomulabs.png" alt="" className="img-fluid px-15"/>
                         <p className="text-center semi-bold mt-5 p-3">
                         Our mission is to educate, share and provide services to help people reap the benefits that NFTs can offer. Through preparation, expertise and professionalism we aim to go hand in hand with those that want to be a part of the future.
                         </p>
