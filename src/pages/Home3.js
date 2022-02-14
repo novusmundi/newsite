@@ -3,15 +3,19 @@ import {Row,Col} from 'antd'
 import { FaDiscord,FaTwitter,FaInstagram,FaLinkedin } from 'react-icons/fa';
 import Layout from  '../components/general/Layout.js'
 // import Intro from '../components/home/Intro'
+// import Canvas from '../components/home/Canvas'
 
 var EmbedVideo = function(props) {
     return (
         <div dangerouslySetInnerHTML={{ __html: `
          <video
            loop
-           muted
+           muted=""
+           data-inline-media-retina-enabled="true"
            autoplay
-           playsinline
+           playsinline=""
+           preload="auto"
+           data-load-timeout="5000"
            src="${props.src}"
            class="${props.className}"
          />,
@@ -26,7 +30,7 @@ export default function Home3(props){
     return(
         <Layout>
             {/* <Intro></Intro> */}
-            <div id="home" className="">
+            <div id="home" className="w-100">
                 <Row justify="center">
                     <Col md={24} sm={24} xs={24} lg={12}>
                     <div className=" mt-5 text-center">
@@ -38,25 +42,22 @@ export default function Home3(props){
                     </Col>
                 </Row>
             </div>
-            <div className="mt-5 responsiveBackground " >
+            <div className="mt-5 responsiveBackground w-100" >
                 <div className="d-none d-lg-block">
                     <EmbedVideo src="/assets/horizontal.mp4" className="video img-fluid w-100"></EmbedVideo>
                 {/* <video id="mobileVideo" className="video img-fluid w-100" loop autoPlay muted>
                     <source  src="/assets/horizontal.mp4"/>
                 </video> */}
                 </div>
-                <div className="d-lg-none">
+                <div className="d-lg-none w-100">
+                    {/* <Canvas></Canvas> */}
                 <EmbedVideo src="/assets/output.mp4" className="video img-fluid w-100"></EmbedVideo>
-
-                {/* <video id="video" className="video img-fluid w-100" loop autoPlay muted>
-                    <source src="/assets/output.mp4"/>
-                </video> */}
                 </div>
             </div>
 
             <div className=" container mt-10" id="about">
-            <Row justify="end" align="middle" className="mt-5" gutter={[32,32]}>   
-                    <Col lg={10} md={24}>
+            <Row justify="end" align="middle" className="mt-5" >   
+                    <Col lg={10} md={24} sm={24} xs={24}>
                         <img src="/assets/moon.jpg" alt="" className="img-fluid"/>
 
                     </Col>               
@@ -69,7 +70,6 @@ export default function Home3(props){
                         <p className="text-start">
                         Nomu Labs is a group of dreamers and doers, who will guide and advise you in the process of creating and implementing NFT and Web 3.0 projects for your business or personal benefit.
                         </p>
-                        <button className="mt-5 btn btn-outline-light">Learn more</button>
                         </div>
                     </Col>
                 </Row>                                
@@ -77,7 +77,7 @@ export default function Home3(props){
             <div className="black-bg text-white mt-10 py-10 px-5 w-100">
 
 
-            <div className="container">
+            <div className="container w-100">
                 <Row justify="space-between" gutter={[32,32]} id="services">
                     <Col className="text-center" md={24} lg={8}>
                         <h1 className="bold text-white">
@@ -189,7 +189,7 @@ export default function Home3(props){
                             <Col lg={8} md={24} className="text-center">
                                 
                                     <div className="imageContainer">
-                                        <a href="https://www.borjacolom.com/">
+                                        <a href="https://www.linkedin.com/in/borja-colom-773b31231/">
                                             <img src="/assets/team/borja.png" alt="" className="img-fluid teamPhoto"/>
                                         </a>
                                     </div>
@@ -311,7 +311,9 @@ export default function Home3(props){
                         </Col>
                         <Col lg={10} md={24}>
                             <div className="d-lg-none mt-5"></div>
-                            <h1 className="display-3 text-white bold" id="contact">Make your dreams come true:</h1>
+                            <h1 className="display-3 text-white bold" id="contact">
+                                Join us in our adventure into the future
+                            </h1>
                             <a href="mailto:info@nomulabs.com" className="text-white">
                                 <h2 className="text-white semi-bold mt-3">info@nomulabs.com</h2>
                             </a>
@@ -331,7 +333,7 @@ export default function Home3(props){
                                     </a>
                                     </Col>
                                     <Col>
-                                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/nomu-nft" className="text-white">
+                                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/nomulabs/" className="text-white">
                                             <h1 className="text-white">
                                             <FaLinkedin></FaLinkedin>   
                                             </h1>
@@ -392,44 +394,3 @@ export default function Home3(props){
 
 
 
-
-/* <div className="mt-15 responsiveBackground">
-<div className="container text-white  p-10">
-<Row justify="center">
-        <Col md={24} lg={20}>
-        <h1 className="display-5 semi-bold text-white">
-            Nomu Labs Consulting
-        </h1>
-        <div className="mt-5">
-            <p className="text-start">
-            In a changing world, companies need to be on their feet, which requires effective strategies.
-            We are very excited to see how companies and brands are gradually joining the NFT space. However, we are witnessing the lack of strategy and necessary knowledge in the majority of projects that come to light.
-            This is due to the application of bad strategic practices when starting an NFT project. It is essential to have a medium and long-term vision in each decision made in the implementation of an NFT project, otherwise the results will not be as expected.
-            At Nomu Labs we offer NFT strategic consulting services and strategy implementation. We are a team with experience in all the necessary fields to achieve the market penetration that your business needs to enter the sector.
-            </p>
-            <h3 className="mt-5 text-white semi-bold">
-            Characteristics of the Nomu Labs consultancy
-            </h3>
-            <p className="text-start mt-3">
-            Our service begins with an analysis of the current business situation, as well as its relationship with the market, using both fronts as a starting point that will allow your brand to establish the actions with which to achieve the expected objectives.
-            </p>
-            <p className="text-start mt-3">
-            We offer personalized and flexible services based on the needs of each client. In this sense, we provide all the relevant information regarding the management of processes and communications, also covering areas such as deadlines, methodologies and professional and technical implications on NFTs.
-            </p>
-            <p className="text-start mt-3">
-            Our purpose is to satisfy and serve as support to those companies that are looking for a strategic ally that drives them forward and helps them develop their NFT projects.
-
-            </p>
-            <p className="text-start mt-3">
-            If you are thinking of entering the NFT market, do not hesitate to contact us without any commitment. We will be delighted to listen to your ideas and contribute our professional and technical vision.
-            </p>
-            <a href="mailto:info@nomulabs.com" className="text-white">
-                <h4 className="text-white">Feel free to hit us up at info@nomulabs.com</h4>
-            </a>
-        </div>
-
-        
-        </Col>
-    </Row>
-</div>
-</div> */

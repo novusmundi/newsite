@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" 
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <meta name="theme-color" content="#ffffff" />
     <meta
       name="description"
       content="Our mission is to educate, share and provide services to help people reap the benefits that NFTs can offer. Through preparation, expertise and professionalism we aim to go hand in hand with those that want to be a part of the future."
@@ -65,5 +65,28 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@id": "https://www.nomulabs.com/#organization",
+        "@type": "Organization",
+        "name": "Nomu Labs",
+        "url": "https://www.nomulabs.com/",
+        "logo": "https://www.nomulabs.com/logo512.png",
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "email": "info@nomulabs.com",
+            "contactType": "sales",
+            "areaServed": "ES",
+            "availableLanguage": ["EN", "ES", "FR"]
+          }
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/company/nomulabs/",
+          "https://www.twitter.com/nomuHQ"
+        ]
+      }
+    </script>
   </body>
 </html>
