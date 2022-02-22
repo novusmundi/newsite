@@ -1,31 +1,20 @@
-import React,{useState} from 'react'
+import React,{useState, useEffect} from 'react'
 
-var EmbedVideo = function(props) {
-    return (
-        <div dangerouslySetInnerHTML={{ __html: `
-         <video
-            id="intro"
-            muted
-            autoplay
-            playsinline
-            src="${props.src}"
-            class="${props.className}"
-         />,
-       ` }}></div>
-    )
- }
 
 export default function Intro(props){
     const [hide,setHide] = useState(false)
+    useEffect(() => {
+        setTimeout(() => {
+            setHide(true)
+        },4500)
+    },[])
     return(
-            hide?(
-                <></>
-            ):(
-            <div className="fullScreen d-flex justify-content-center align-items-center">
-                <div className="container">
-                    <video  id="intro" src="/assets/intro.mp4"   muted autoPlay onEnded={() => setHide(true)} className="img-fluid"></video>
-                </div>
-            </div> 
-            )
+        <div className={hide?"fadeOut":""}>
+        <div className="fullScreen fixed-top bg-white d-flex justify-content-center align-items-center">
+            <div className="container">
+                <img src="/assets/logoanimadogif.gif" alt="" className="img-fluid"/>
+            </div>
+        </div> 
+        </div>
     )
 }

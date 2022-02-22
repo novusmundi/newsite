@@ -230,3 +230,10 @@ box-shadow: 5px 8px 5px grey;
 .noLink{
   text-decoration: none;
 }
+.fadeOut{
+  opacity:0!important;
+  width:0!important;
+  height:0!important;
+  transition: width 1s 1s, height 1s 1s, opacity 1s;
+
+}
