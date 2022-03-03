@@ -6,13 +6,13 @@ export default function Intro(props){
     useEffect(() => {
         setTimeout(() => {
             setHide(true)
-        },4500)
+        },4000)
     },[])
     return(
         <div className={hide?"fadeOut":""}>
         <div className="fullScreen fixed-top bg-white d-flex justify-content-center align-items-center">
-            <div className="container">
-                <img src="/assets/logoanimadogif.gif" alt="" className="img-fluid"/>
+            <div className="container text-center">
+                <img src="/assets/logoanimadogif.gif" alt="" className={(hide?"fadeOutOpacity":"") + " img-fluid"}/>
             </div>
         </div> 
         </div>

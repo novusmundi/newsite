@@ -10,6 +10,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home3 from './pages/Home3'
 
 import ReactGA from 'react-ga4';
+import Post from './pages/Post';
 
 const TRACKING_ID = "UA-220129804-1"; // YOUR_OWN_TRACKING_ID
 
@@ -27,6 +28,7 @@ function App() {
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<Home3/>}/>
+          <Route path="/blog/:id" element={<Post/>}></Route>
       </Routes>
     </BrowserRouter>
   );
