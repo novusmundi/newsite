@@ -48,8 +48,8 @@ export default function Layout(props){
                             <h1 className="display-3 text-white bold" id="contact">
                                 Join us in our adventure into the future
                             </h1>
-                            <a href="mailto:info@nomulabs.com" className="text-white">
-                                <h2 className="text-white semi-bold mt-3">info@nomulabs.com</h2>
+                            <a href="mailto:nomu.ltd@gmail.com" className="text-white">
+                                <h2 className="text-white semi-bold mt-3">nomumlt@gmail.com</h2>
                             </a>
                             <Row className="text-white mt-5" justify="start" gutter={[16,16]}>
                                     <Col>
