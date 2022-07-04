@@ -11,3 +11,12 @@ if($('.smart-scroll').length > 0) { // check if element exists
         last_scroll_top = scroll_top;
     })
 }
+
+$(document).click(function (event) {
+    var clickover = $(event.target);
+    var $navbar = $(".navbar-collapse");               
+    var _opened = !$navbar.hasClass("collapsed");
+    if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
+        $navbar.collapse('hide');
+    }
+});
